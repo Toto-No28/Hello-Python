@@ -31,3 +31,25 @@
 pero éstos mismos no son considerados comentarios
 si no cadenas de texto que no se asignan a ninguna variable
 por lo tanto son ignorados por la ejecución del programa"""
+
+# Variable ejemplo:
+color = "naranja"
+
+# Constante ejemplo:
+# Constantes declaradas por convención en MAYÚSCULAS, ya que Python no tiene soporte nativo para constantes.
+PI = 3.14159
+GRAVEDAD_TIERRA = 9.81
+URL_API = "https://miweb.com"
+
+# El lenguaje te permite cambiarlo, pero NO debes hacerlo:
+# PI = 4.0  <- Esto es una mala práctica
+
+# También podemos usar el módulo typing para declarar constantes con tipado estricto
+from typing import Final
+
+# Declaración con tipado estricto
+MAX_CONEXIONES: Final = 5
+
+# Si intentas hacer esto, tu editor te avisará que está mal:
+MAX_CONEXIONES = 10 
+
