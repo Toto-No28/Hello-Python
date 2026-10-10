@@ -22,15 +22,28 @@
 # * debemos comenzar por el principio.
 # */
 
+
 # <--- PYTHON --->
+
+# * - Crea un comentario en el código y coloca la URL del sitio web oficial del
+# *   lenguaje de programación que has seleccionado.
+
 #URL oficial: https://www.python.org/
 
+############################################################
+# * - Representa las diferentes sintaxis que existen de crear comentarios
+# *   en el lenguaje (en una línea, varias...).
+
 # Comentario de una línea
+
 # Podemos seguir usando la almohadilla para hacer comentarios multilínea
-"""o podemos usar comillas triples para comentarios multilínea
+"""o podemos usar comillas triples para comentarios multilínea,
 pero éstos mismos no son considerados comentarios
-si no cadenas de texto que no se asignan a ninguna variable
+si no cadenas de texto que no se asignan a ninguna variable,
 por lo tanto son ignorados por la ejecución del programa"""
+
+#############################################################
+# * - Crea una variable (y una constante si el lenguaje lo soporta).
 
 # Variable ejemplo:
 color = "naranja"
@@ -53,3 +66,29 @@ MAX_CONEXIONES: Final = 5
 # Si intentas hacer esto, tu editor te avisará que está mal:
 MAX_CONEXIONES = 10 
 
+###############################################################
+# * - Crea variables representando todos los tipos de datos primitivos
+# *   del lenguaje (cadenas de texto, enteros, booleanos...).
+
+# Strings
+nombre = "Juan"
+# Integer
+edad = 30
+# Float
+altura = 1.75
+# Booleanos
+es_estudiante = True
+# Listas
+frutas = ["manzana", "banana", "cereza"]
+# Tuplas
+coordenadas = (10.0, 20.0)
+# Diccionarios
+persona = {"nombre": "Ana", "edad": 25}
+# Conjuntos
+colores = {"rojo", "verde", "azul"}
+# NoneType
+valor_nulo = None
+
+##############################################################
+# * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+print("¡Hola, Python!")
